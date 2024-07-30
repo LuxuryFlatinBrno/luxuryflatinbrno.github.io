@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="CZ">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+  float: left;
+  width: 79%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  right: 10px;
+  position: fixed;
+}
+
+.square {
+  
+  border-radius: 5px;
+  padding: 5px;
+  
+  
+  margin:10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img.square {
+  float: left;
+  max-width: 200px;
+}
+
+.contact{
+    height:40px;
+}
+img.contact{
+    width: 20px;
+    height:20px;
+    margin: 2px;
+}
+
+.links{
+    padding: 10px;
+}
+img.links{
+    height: 100px;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.flag{
+  float: right;
+}
+img.flag{
+  margin: 10px;
+  height: 40px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+    position: relative;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#ffffff;padding:15px; border-bottom: 1px solid rgb(0, 0, 0);;">
+  <div class="flag">
+    <a href="../index.html">
+      <img class="flag" src="../img/icons/enflag.png">
+    </a>
+  </div>
+  <h1>Luxury Flats in Brno</h1>
+</div>
+
+<div style="overflow:auto">
+  
+
+  <div class="main">
+    <a href="../cz/flat01/index.html">
+      <div class="square">
+        <h2>Luxury Flat in Brno</h2>
+    
+        <img src="../img/flat01/img01.jpg" class="square" style="width:100%">
+        <p><b>About this space</b></p>
+        <p>Nově zrekonstruovaný byt s luxusním vybavením, krásným výhledem na Brno, který je ideální jako ubytování na služební cestě nebo pro pár. K pobytu láhev dobrého vína zdarma. Budeme se na Vás těšit :)
+          Parking - nově jsou zavedeny v Brně parkovací zóny, budeme se Vám snažit zajistit místo zdarma ve vnitrobloku, nemůžeme jej ale garantovat.</p>
+          <p><b>The space</b></p>
+          <p>Nová rekonstrukce, výhled na lom Hády, dobré parkování, blízko k centru.</p>
+          <h2>Reservace</h2>
+        <a href="https://www.airbnb.com/rooms/41317275?source_impression_id=p3_1719929061_P3ADU9L7f0xGpF5j">
+            <img class="links" src="../img/icons/airbnb.png">
+        </a>
+        <a href="https://www.booking.com/hotel/cz/luxury-flat-in-brno.cs.html#map_closed">
+            <img class="links" src="../img/icons/booking.png">
+        </a>
+      </div>
+    </a>
+    <a href="../cz/flat02/index.html">
+    <div class="square"> 
+        <h2>Luxury Flat in Brno GreeN SoHo</h2>
+      
+        <img src="../img/flat02/img01.jpg" class="square" style="width:100%">
+        <p>Luxury Flat in Brno GreeN SoHo se nachází v destinaci Husovice a nabízí ubytování s balkonem a bezplatným Wi-Fi. Brněnské výstaviště se nachází 5,9 km daleko, Vila Tugendhat 2,3 km a Katedrála sv. Petra a Pavla 4,2 km. Ubytování poskytuje terasu a neplacené soukromé parkoviště. Hrad Špilberk se nachází 3,4 km odtud.</p>
+        <h2>Reservace</h2>
+        <a href="https://www.airbnb.co.nz/rooms/628852576445955300?source_impression_id=p3_1719929448_P3dNBcjSuHPyTvVF&translate_ugc=false">
+            <img class="links" src="../img/icons/airbnb.png">
+        </a>
+        <a href="https://www.booking.com/hotel/cz/luxury-flat-in-brno-green-soho.cs.html?activeTab=main&lang=cs&soz=1&lang_changed=1">
+            <img class="links" src="../img/icons/booking.png">
+        </a>
+      </div>
+    </a>
+  </div>
+
+  <div class="right">
+    <div class="box">
+    <h2>Contact</h2>
+    <p><b>Iva Terzieva</b></p>
+    <div class="contact">
+        <img class="contact" src="../img/icons/telephone.png">
+        +420 605 748 484
+    </div>
+    <div class="contact">
+        <img class="contact" src="../img/icons/mail.png">
+        terzieva@seznam.cz
+    </div>
+    <p><b>Ing. Christo Terziev, MSc</b></p>
+    <div class="contact">
+        <img class="contact" src="../img/icons/telephone.png">
+        +420 733 489 479
+    </div>
+    <div class="contact">
+        <img class="contact" src="../img/icons/mail.png">
+        terzievch@seznam.cz
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"></div>
+
+</body>
+</html>

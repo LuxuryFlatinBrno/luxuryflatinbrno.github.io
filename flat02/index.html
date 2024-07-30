@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+  float: left;
+  width: 79%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  right: 10px;
+  
+  position: fixed;
+}
+
+.square {
+  
+  border-radius: 5px;
+  padding: 5px;
+  float: left;
+  
+  margin:10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img.square {
+  max-width: 200px;
+  
+
+}
+
+
+.tools{
+    background-color: white;
+    height: 60px;
+    width: 185px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    margin-top:10px;
+    margin-right: 10px;
+    float: left;
+}
+img.tools{
+    height:40px;
+    width: 40px;
+    border:rgb(255, 255, 255);
+}
+.links{
+    padding: 10px;
+}
+img.links{
+    height: 100px;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.box {
+
+    float: left;
+}
+
+.contact{
+    height:40px;
+}
+img.contact{
+    width: 20px;
+    height:20px;
+    margin: 2px;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.flag{
+  float: right;
+}
+img.flag{
+  margin: 10px;
+  height: 40px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*Resolutions */
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+    position: relative;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#ffffff;padding:15px; border-bottom: 1px solid rgb(0, 0, 0);;">
+  <div class="flag">
+    <a href="../cz/flat02/index.html">
+      <img class="flag" src="../img/icons/czflag.png">
+    </a>
+  </div>
+  <h1>Luxury Flats in Brno</h1>
+</div>
+
+<div style="overflow:auto">
+  
+
+<div class="main">
+    <div class="box">
+
+        <h2>Luxury Flat in Brno GreeN SoHo</h2>
+        <p>Luxury Flat in Brno GreeN SoHo offers accommodations in Husovice, 2.1 miles from Špilberk Castle and 3.7 miles from Trade Fairs Brno. This property offers access to a balcony and free private parking. Brno Main Station is 2.8 miles away and Masaryk Circuit is 13 miles from the apartment.</p>
+        <p>With free Wifi, this 1-bedroom apartment provides a flat-screen TV, a washing machine, and a fully equipped kitchen with a dishwasher and oven. Towels and bed linen are provided in the apartment. The accommodation is non-smoking.</p>
+        <p>Villa Tugendhat is 1.4 miles from the apartment, while St. Peter and Paul Cathedral is 2.6 miles away. The nearest airport is Brno-Turany Airport, 7.5 miles from Luxury Flat in Brno GreeN SoHo.</p>
+        <p>Couples in particular like the location – they rated it 9.3 for a two-person trip.</p>
+    </div>
+
+    <div class="box">
+        <h2>Adresa</h2>
+        <a href="https://www.bing.com/search?q=15+Reissigova%2C+Husovice%2C+612+00%2C+%C4%8Cesk%C3%A1+republika+&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=15+reissigova%2C+husovice%2C+612+00%2C+%C4%8Desk%C3%A1+republika+&sc=11-49&sk=&cvid=59BA83C98F8E482CAF6DAFC1D122CE5F&ghsh=0&ghacc=0&ghpl=">
+        <p>15 Reissigova, Husovice, 612 00, Czech Republic</p>
+        </a>
+    </div>
+
+    <div class="box">
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img01.jpg">
+            <img src="../img/flat02/img01.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img02.jpg">
+            <img src="../img/flat02/img02.jpg" alt="Forest" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img03.jpg">
+            <img src="../img/flat02/img03.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img04.jpg">
+            <img src="../img/flat02/img04.jpg" alt="Mountains" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img05.jpg">
+            <img src="../img/flat02/img05.jpg" alt="Mountains" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../img/flat02/img06.jpg">
+            <img src="../img/flat02/img06.jpg" alt="Mountains" width="600" height="400">
+            </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img07.jpg">
+            <img src="../img/flat02/img07.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img08.jpg">
+            <img src="../img/flat02/img08.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img09.jpg">
+            <img src="../img/flat02/img09.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img10.jpg">
+            <img src="../img/flat02/img10.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img11.jpg">
+            <img src="../img/flat02/img11.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img12.jpg">
+            <img src="../img/flat02/img12.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img13.jpg">
+            <img src="../img/flat02/img13.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img14.jpg">
+            <img src="../img/flat02/img14.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img15.jpg">
+            <img src="../img/flat02/img15.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+
+        <div class="gallery">
+        <a target="_blank" href="../img/flat02/img16.jpg">
+            <img src="../img/flat02/img16.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        </div>
+    
+    </div>    
+    <div class="box">
+        <h2>Facilities</h2>
+
+        <div class="tools">
+            <img class="tools" src="../img/icons/area.png">
+            45 m² size
+        </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/silhouette.png">
+            Entire apartment
+            </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/parking.png">
+            Free on-site parking
+            </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/wifi.png">
+            Free Wifi
+        </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/nosmoke.png">
+            Non-smoking rooms
+        </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/balcony.png">
+            Balcony
+        </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/view.png">
+            View
+        </div>
+        <div class="tools">
+            <img class="tools" src="../img/icons/kichen.png">
+            Kitchen
+        </div>
+        <div class="tools">
+          <img class="tools" src="../img/icons/washing-machine.png">
+          Washing machine
+        </div>
+        <div class="tools">
+          <img class="tools" src="../img/icons/led-tv.png">
+          Flat-screen TV
+        </div>
+    </div>
+
+    <div class="box">
+      <h2>Reservation</h2>
+        <a href="https://www.airbnb.co.nz/rooms/628852576445955300?source_impression_id=p3_1719929448_P3dNBcjSuHPyTvVF&translate_ugc=false">
+            <img class="links" src="../img/icons/airbnb.png">
+        </a>
+        <a href="https://www.booking.com/hotel/cz/luxury-flat-in-brno-green-soho.html?activeTab=main&lang=en-us&soz=1&lang_changed=1">
+            <img class="links" src="../img/icons/booking.png">
+        </a>
+    </div>
+
+
+    <a href="../flat01/index.html"> 
+      <div class="square">
+        <h2>Luxury Flat in Brno</h2>
+    
+        <img src="../img/flat01/img01.jpg" class="square" style="width:100%">
+        <p><b>About this space</b></p>
+        <p>A newly renovated apartment with luxurious amenities, a beautiful view of Brno, which is ideal as a business trip or for a couple. Free bottle of good wine for your stay. We look forward to seeing you:)
+          Parking - newly introduced parking zones in Brno, we will try to provide you with a free place in the courtyard, but we cannot guarantee it.</p>
+          <p><b>The space</b></p>
+          <p>New renovation, views of the Hades quarry, good parking, close to the center.</p>
+          <p><b>Reservation</b></p>
+        <a href="https://www.airbnb.com/rooms/41317275?source_impression_id=p3_1719929061_P3ADU9L7f0xGpF5j">
+            <img class="links" src="../img/icons/airbnb.png">
+        </a>
+        <a href="https://www.booking.com/hotel/cz/luxury-flat-in-brno.cs.html#map_closed">
+            <img class="links" src="../img/icons/booking.png">
+        </a>
+      </div>
+  </div>
+
+  <div class="right">
+    <div class="box">
+    <h2>Contact</h2>
+    <p><b>Iva Terzieva</b></p>
+    <div class="contact">
+        <img class="contact" src="../img/icons/telephone.png">
+        +420 605 748 484
+    </div>
+    <div class="contact">
+        <img class="contact" src="../img/icons/mail.png">
+        terzieva@seznam.cz
+    </div>
+    <p><b>Ing. Christo Terziev, MSc</b></p>
+    <div class="contact">
+        <img class="contact" src="../img/icons/telephone.png">
+        +420 733 489 479
+    </div>
+    <div class="contact">
+        <img class="contact" src="../img/icons/mail.png">
+        terzievch@seznam.cz
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"></div>
+
+</body>
+</html>
